@@ -10,6 +10,8 @@ This is a small project to determine the correlation between local temperature a
 5. A series of processes can be carried out directly by the user through the UI.
 
 ## System Block
+![image](https://user-images.githubusercontent.com/108905975/195729597-fdd137d8-cfff-4678-b00b-fb566a57f25a.png)
+
 ![image](https://user-images.githubusercontent.com/108905975/194469863-69f9e8f5-66f7-4506-93ac-0b832911d7ab.png)
 
 ## User Interface
@@ -19,7 +21,7 @@ This is a small project to determine the correlation between local temperature a
 ### Server
 |Name|Description|Note|
 |:------|:---|:---|
-|Mini_IoT_Platform|Local Network Server|[Link](https://github.com/Super-Thomas/Mini_IoT_Platform)|
+|Mini_IoT_Platform|Local Network Server|[Link]|
 ### Python Library(Ver. 3.10.5)
 |Name|Description|Note|
 |:---|:---|:---|
