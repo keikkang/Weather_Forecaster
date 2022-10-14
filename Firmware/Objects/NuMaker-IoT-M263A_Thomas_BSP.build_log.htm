@@ -1,0 +1,105 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: •ÏVision V5.34.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: M H, S, LIC=JL28G-V29XL-WFHI7-EH82D-33TTX-3CMUL
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.34.0.0
+Toolchain Path:  C:\Keil_ARM\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      NULink\Nu_Link.dll V3.07
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+D:\Work\Nuvoton\M263\IoT_Project\NuMaker-IoT-M263A_Thomas_BSP\Firmware\NuMaker-IoT-M263A_Thomas_BSP.uvprojx
+Project File Date:  01/04/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_ARM\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+lora-task.c(8): warning: In file included from...
+./main.h(6): warning: no newline at end of file [-Wnewline-eof]
+#endif //__MAIN_H_
+                  ^
+lora-task.c(12): warning: In file included from...
+./sensor-task.h(22): warning: no newline at end of file [-Wnewline-eof]
+#endif //__SENSOR_TASK_H_
+                         ^
+lora-task.c(17): warning: no previous extern declaration for non-static variable 'g_u8LoRaTxStartFlag' [-Wmissing-variable-declarations]
+uint8_t g_u8LoRaTxStartFlag = 0;
+        ^
+lora-task.c(17): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint8_t g_u8LoRaTxStartFlag = 0;
+^
+lora-task.c(18): warning: no previous extern declaration for non-static variable 'g_u8LoRaRxStartFlag' [-Wmissing-variable-declarations]
+uint8_t g_u8LoRaRxStartFlag = 0;
+        ^
+lora-task.c(18): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint8_t g_u8LoRaRxStartFlag = 0;
+^
+lora-task.c(49): warning: implicit conversion increases floating-point precision: 'float' to 'double' [-Wdouble-promotion]
+        double RSSIvalue = 0.0f;
+               ~~~~~~~~~   ^~~~
+lora-task.c(50): warning: unused variable 'i' [-Wunused-variable]
+        unsigned char i;
+                      ^
+lora-task.c(95): warning: unused variable 'i' [-Wunused-variable]
+        unsigned char i;
+                      ^
+lora-task.c(141): warning: unused parameter 'pvParam' [-Wunused-parameter]
+static void loraTask(void *pvParam)
+                           ^
+lora-task.c(142): warning: function 'loraTask' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+9 warnings generated.
+compiling lora-task.c...
+linking...
+Program Size: Code=27708 RO-data=980 RW-data=44 ZI-data=11932  
+".\Objects\NuMaker-IoT-M263A_Thomas_BSP.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Nuvoton
+                https://www.nuvoton.com/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.3.12.pack
+                Nuvoton.NuMicro_DFP.1.3.12
+                Nuvoton ARM Cortex-M NuMicro Family Device Support
+   * Component: Startup Version: 0.00.001
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\Thomas\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.12\Device\M261\Include
+  C:\Users\Thomas\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.12\Device\M261\StdDriver\inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: Nuvoton::Device:Startup:0.00.001
+      Include file:  Device\M261\Include\M261.h
+      Include file:  Device\M261\Include\NuMicro.h
+      Include file:  Device\M261\Include\system_M261.h
+      Source file:   Device\M261\Source\ARM\startup_M261.s
+      Source file:   Device\M261\StdDriver\src\retarget.c
+      Source file:   Device\M261\Source\system_M261.c
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
