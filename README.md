@@ -18,10 +18,22 @@ This is a small project to determine the correlation between local temperature a
 ![image](https://user-images.githubusercontent.com/108905975/194469951-4504ad16-5818-498f-89c1-968237857232.png)
 
 ## Development environment
+### Hardware
+|Name|Description|Note|
+|:------|:---|:---|
+|NuMaker-IoT-M253A V1.1|Development board with ARM Cortex-M23 provided by Nuvoton|[Link](https://www.nuvoton.com/products/iot-solution/iot-platform/numaker-iot-m263a/)|
+### Software
+|Name|Description|Note|
+|:------|:---|:---|
+|Firmware|Based SDK for M261 series provided by Nuvoton|Version 3.00.003|
+|Keil MDK|IDE for Firmware|uVision V5.34.0.0|
+|Ubuntu|Linux OS|Version 18.04.6|
+|g++|Compiler for TCP/IP Server|Version 7.5.0|
+|MySQL|Database|Version 14.14|
 ### Server
 |Name|Description|Note|
 |:------|:---|:---|
-|Mini_IoT_Platform|Local Network Server|[Link]|
+|IoT_Platform|Local Network Server|[Link]|
 ### Python Library(Ver. 3.10.5)
 |Name|Description|Note|
 |:---|:---|:---|
